@@ -9,7 +9,7 @@
  * 允许构造和析构禁止拷贝和赋值
  */
 class noncopyable {
-public:
+private:
     noncopyable(const noncopyable &) = delete;
 
     noncopyable operator=(const noncopyable &) = delete;
